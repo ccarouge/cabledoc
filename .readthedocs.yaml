@@ -8,4 +8,4 @@ build:
 python:
   # Install extension packages before building the docs
   install:
-    - requirements: doc/requirements.txt
+    - requirements: docs/requirements.txt
