@@ -8,5 +8,4 @@ build:
 python:
   # Install extension packages before building the docs
   install:
-    - method: pip
-      path: myst-parser
+    - requirements: doc/requirements.txt
