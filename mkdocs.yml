@@ -1,8 +1,8 @@
-site_name: CABLE
+site_name: CABLE docs
 
 # Git repository
-repo_url: https://github.com/ACCESS-NRI-Community/cabledoc
-repo_name: CABLEdoc
+repo_url: https://github.com/ccarouge/cabledoc
+repo_name: cabledoc
 # Material default to a "master" branch, need to change to "main"
 edit_uri: edit/main/docs/
 
@@ -41,6 +41,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+  - search
 
 extra_javascript:
   - javascripts/mathjax.js
